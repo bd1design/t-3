@@ -1561,9 +1561,7 @@
 
 	@media only screen and (max-width: 1400px){
 
-		.main-navigation{
-			background-color: #ff0040;
-		}
+		
 
 		.steps li {
 			padding-left: 10px;
@@ -1663,9 +1661,6 @@
     @media (max-width: 1200px) {
 		
 
-		.main-navigation{
-			background-color: #04adf0;
-		}
 
 		.header-features{
 			padding-left: 0;
@@ -1785,9 +1780,6 @@
     @media (max-width: 991px) {
 
 		
-		.main-navigation{
-			background-color: #3d910d;
-		}
 
 		.header-features {
 			margin-top: 0;
@@ -1888,11 +1880,7 @@
 
     @media (max-width: 767.98px) {
 
-		
-			
-		.main-navigation{
-			background-color: #e614e6;
-		}
+
 
 		.steps {
 			display: block;
@@ -1941,12 +1929,7 @@
 
 	
 	@media (max-width: 575.98px) { 
-		
-				
-		.main-navigation{
-			background-color: #080808;
-		}
-
+	
 
 		.steps {
 			display: block;
@@ -2070,12 +2053,13 @@
 
 	
 		#file-a-complaint{
-			background: url(../img/mobile-cover-hero.jpg) no-repeat;
+			
 			background-color: #01172d;
 		    background-size: contain;
     		background-repeat: no-repeat !important;
     		background-position: top;
 			margin-top:0;
+			padding-right: 0;
 		}
 
 		.header-image {
@@ -2434,6 +2418,27 @@
 
 		.link-footer:nth-child(2){
 			display: none;
+		}
+
+		.contact-informations h1 {
+			font-size: 30px;
+			font-family: 'Roboto', sans-serif;
+			text-align: left;
+			color: #fff;
+			font-weight: 900;
+			text-shadow: none;
+		}
+
+		.contact-informations h2 {
+			font-size: 13px;
+			color: #fff;
+			margin-top: 80px;
+		}
+
+		.contact-informations h2  span{
+			font-size: 13px;
+			color: #fff;
+			margin-top: 80px;
 		}
 
 	} /* end mobile responsive media querie*/
